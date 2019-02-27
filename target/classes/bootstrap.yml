@@ -1,0 +1,7 @@
+spring:
+  application.name: app
+  profiles: dev
+  cloud:
+    config:
+      uri: https://github.com/nonnemacher/configuration
+      label: application.yml
